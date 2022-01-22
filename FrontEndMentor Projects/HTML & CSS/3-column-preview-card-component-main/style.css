@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+:root
+{
+    font-size: 15px;
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white : hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray : hsl(0, 0%, 95%);
+
+
+}
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    background-color: var(--neu-gray);
+    font-size: 15px;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+   
+    color: var(--neu-white);
+  }
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#card1
+{
+    
+    background-color: var(--Bright-orange);
+    height: 450px;
+    width: 278px;
+}
+#card2
+{
+    background-color: var(--Very-dark-cyan);
+    height: 450px;
+    width: 278px;
+}
+#card3
+{
+    background-color: var(--Dark-cyan);
+    height: 450px;
+    width: 278px;
+}
+
+.attribution {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    color: var(--gray);
+    bottom: 10px;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: var(--dark-gray);
+  }
+  
+  .attribution a:hover {
+    color: var(--black);
+  }
+
